@@ -3,7 +3,7 @@
 ARG VARIANT=debian-11
 FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-${VARIANT}
 
-WORKDIR /tmp/src
+#WORKDIR /tmp/src
 
 #RUN curl -OL https://github.com/google/googletest/archive/release-1.10.0.tar.gz \
 #    && tar -zxvf release-1.10.0.tar.gz \
