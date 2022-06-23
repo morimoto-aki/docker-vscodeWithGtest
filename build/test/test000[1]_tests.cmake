@@ -1,0 +1,5 @@
+add_test( func1.BasicTest1 /workspaces/docker-vscodeWithGtest/build/test/test000 [==[--gtest_filter=func1.BasicTest1]==] --gtest_also_run_disabled_tests)
+set_tests_properties( func1.BasicTest1 PROPERTIES WORKING_DIRECTORY /workspaces/docker-vscodeWithGtest/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( func1.BasicTest2 /workspaces/docker-vscodeWithGtest/build/test/test000 [==[--gtest_filter=func1.BasicTest2]==] --gtest_also_run_disabled_tests)
+set_tests_properties( func1.BasicTest2 PROPERTIES WORKING_DIRECTORY /workspaces/docker-vscodeWithGtest/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( test000_TESTS func1.BasicTest1 func1.BasicTest2)

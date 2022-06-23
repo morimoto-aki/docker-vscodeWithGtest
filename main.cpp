@@ -1,13 +1,6 @@
 #include <iostream>
-#include <string>
+#include "include/func.h"
 
-using namespace std;
-
-int main() {
-    cout << "Hello World\n";
-    cout << "Input: ";
-    string data;
-    getline(cin, data);
-    cout << "Output: " << data << "\n\n";
-    return 0;
+int main(int, char**) {
+    std::cout << func1(1, 2) << "Hello, world!\n";
 }

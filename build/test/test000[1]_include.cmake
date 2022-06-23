@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/docker-vscodeWithGtest/build/test/test000[1]_tests.cmake")
+  include("/workspaces/docker-vscodeWithGtest/build/test/test000[1]_tests.cmake")
+else()
+  add_test(test000_NOT_BUILT test000_NOT_BUILT)
+endif()

@@ -4,11 +4,13 @@ ARG VARIANT=debian-11
 FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-${VARIANT}
 
 WORKDIR /tmp/src
-RUN curl -OL https://github.com/google/googletest/archive/release-1.10.0.tar.gz \
-    && tar -zxvf release-1.10.0.tar.gz \
-    && mkdir ./googletest-release-1.10.0/build
+
+#RUN curl -OL https://github.com/google/googletest/archive/release-1.10.0.tar.gz \
+#    && tar -zxvf release-1.10.0.tar.gz \
+#    && mkdir ./googletest-release-1.10.0/build
 # Google testのインストール
-WORKDIR /tmp/src/googletest-release-1.10.0/build
+#WORKDIR /tmp/src/googletest-release-1.10.0/build
+
 # [Optional] Uncomment this section to install additional packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>

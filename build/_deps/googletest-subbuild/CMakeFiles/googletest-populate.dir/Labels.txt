@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/workspaces/docker-vscodeWithGtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
